@@ -1,5 +1,7 @@
 use starknet::ContractAddress;
 
+use cairo_test::test_utils::assert_eq;
+
 use snforge_std::{declare, ContractClassTrait, DeclareResultTrait};
 
 use hello_world::IHelloStarknetSafeDispatcher;
